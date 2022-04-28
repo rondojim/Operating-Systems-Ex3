@@ -14,4 +14,5 @@ when at least 2 processes worked in the same time.
 ./chef -n numOfSlds -m mantime
 
 ./saladmaker -t1 lb -t2 ub -s shmid
+
 [lb, ub] interval the salaadmaker needs to do the job, shmid key to share memory
