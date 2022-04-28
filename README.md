@@ -10,3 +10,8 @@ their ingridients from the same table. In order for everything to work correctly
 
 In the end we have to find the number of total salads, the number of salads of each saladmaker, time logs for each saladmaker, a list of time intervals 
 when at least 2 processes worked in the same time.
+
+./chef -n numOfSlds -m mantime
+
+./saladmaker -t1 lb -t2 ub -s shmid
+[lb, ub] interval the salaadmaker needs to do the job, shmid key to share memory
